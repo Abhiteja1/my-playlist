@@ -1,0 +1,65 @@
+/*  your css code here. If applicable */
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+body{
+	background-color: #D2E0FB;
+}
+.container{
+	display:flex;
+	flex-direction:column;
+    font-family: 'Exo', sans-serif;
+}
+h1,h2,h3{
+    
+	text-align:center;
+    background-color:#12486B;
+}
+.playlist{
+	background-color: #419197;
+	border-radius:10px;
+	border:1px solid black;
+}
+li{
+	list-style:none;
+}
+/* .now-playing{
+	display:flex;
+	flex-direction:column;
+} */
+.now-playing2{
+	background-color: #c9ebe5; 
+	width:80%;
+	display:block;
+	margin:auto;
+	border-radius:20px;
+	border:1px solid black;
+	overflow:hidden;
+/* 	align-items:center; */
+/* 	justify-content:center; */
+}
+.player_one, .player_two{
+	padding:50px;
+	width:90%;
+	background-color: #c9ebe5;
+}
+a{
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
